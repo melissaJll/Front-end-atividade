@@ -1,0 +1,56 @@
+/*Css Home*/
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+body{
+    background-color: #f8e9cf;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+
+#menu li{
+    display: inline;
+    padding: 15px;
+}
+#menu li a{
+    text-decoration: none;
+    color: rgb(255, 254, 214);
+    font-size: 20px;
+    background-color: rgb(102, 221, 98);
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+    border-radius: 20%;
+
+}
+#menu li a:hover{
+    color: rgb(46, 235, 131);
+    background-color: rgb(255, 254, 214);
+
+}
+.center{
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+
+}
+.padding30{
+    padding: 30px;
+}
+.radius50{
+    border-radius: 50%;
+    border: 4px solid rgb(48, 201, 94);
+}
+.tm-social{
+}
+.mb-50{
+    margin-bottom: 50px;
+}
+
+/*Css Contatos*/
+.ml-50{
+    margin-right: 50px;
+}
