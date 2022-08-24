@@ -2,19 +2,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 
 body{
-    background-color: #f8e9cf;
-    margin-left: 100px;
-    margin-right: 100px;
+    background-color:rgb(255, 254, 214);
+    margin-left: 150px;
+    margin-right: 150px;
     
 }
-
 #menu li{
     display: inline;
     padding: 15px;
 }
 #menu li a{
     text-decoration: none;
-    color: rgb(255, 254, 214);
+    color: rgb(255, 255, 255);
     font-size: 20px;
     background-color: rgb(102, 221, 98);
     font-family: 'Indie Flower', cursive;
@@ -25,6 +24,16 @@ body{
 #menu li a:hover{
     color: rgb(46, 235, 131);
     background-color: rgb(255, 254, 214);
+    border: 2px solid rgba(153, 77, 14, 0.425);;
+
+}
+.green-back{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    background-color: rgb(102, 221, 98);
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+    border-radius: 16%;
 
 }
 .center{
@@ -39,6 +48,9 @@ body{
 }
 .padding30{
     padding: 30px;
+}
+.justif{
+    text-align: justify
 }
 .radius50{
     border-radius: 50%;
