@@ -1,0 +1,30 @@
+/*Mobile*/
+*{
+    font-size: 20pt;
+}
+.test{
+    width: 100%;
+}
+#login{
+    width: 100%;
+}
+/*Outras telas*/
+@media only screen and (min-width: 920px){
+    *{
+        font-size: 14pt;
+    }
+    body{
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+    article{
+        width: 30%;
+    }
+}
+html{
+    background: rgb(255,96,79);
+background: linear-gradient(79deg, rgba(255,96,79,1) 27%, rgba(236,120,246,1) 66%);
+background-repeat: no-repeat;
+background-size: cover;
+}
